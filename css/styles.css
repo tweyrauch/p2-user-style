@@ -13,6 +13,14 @@ section{
 	padding: 1% 0;
 }
 
+.masthead{
+	text-align: center;
+}
+
+.masthead img{
+	width: 75%;
+}
+
 .color-1,
 .color-2,
 .color-3,
