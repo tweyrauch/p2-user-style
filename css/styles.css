@@ -11,6 +11,7 @@ section {
 
 body{
 	/*background: url("../img/brushed_alu_dark.png");*/
+	font-family: Helvetica, sans-serif;
 }
 
 header,
@@ -39,13 +40,12 @@ header img{
 h1{
 	color: #C3262E;
 	font-family: 'Federo', sans-serif;
-}
+}	
 
 h2{
 	color: #573D34;
-
+	font-family: 'Share Tech', sans-serif;
 }
-
 
 h3,
 p a{
@@ -70,8 +70,8 @@ a.button{
 }
 
 a.button:hover{
-	background: #573D34;
-	color: #469643;
+	background: #C44413;
+
 }
 
 .color-1,
