@@ -35,9 +35,42 @@ h1{
 	color: #C3262E;
 }
 
+h2{
+	color: #573D34;
+}
+
+
+h3,
+p a{
+	color: #0E6190;
+}
+
+a{
+	text-decoration: none;
+}
+
+p a:hover{
+	color:#4EA84B;
+}
+
+a.button{
+	background: #0E6190;
+	color: #4EA84B;
+	display: inline-block;
+	padding: 1%;
+	margin: 1%;
+	
+}
+
+a.button:hover{
+	background: #4EA84B;
+	color: #0E6190;
+}
+
 .color-1,
 .color-2,
 .color-3,
+.color-4,
 .pattern-1,
 .pattern-2,
 .pattern-3 {
@@ -50,6 +83,18 @@ h1{
 
 .color-1{
 	background: #C3262E;
+}
+
+.color-2{
+	background: #4EA84B;
+}
+
+.color-3{
+	background: #573D34;
+}
+
+.color-4{
+	background: #0E6190;
 }
 
 .pattern-1{
