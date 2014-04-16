@@ -10,7 +10,7 @@ section {
 }
 
 body{
-	background: url("../img/brushed_alu_dark.png");
+	/*background: url("../img/brushed_alu_dark.png");*/
 }
 
 header,
@@ -31,18 +31,25 @@ section{
 	width: 75%;
 }
 
+header img{
+	position: relative;
+	top: -12px;
+}
+
 h1{
 	color: #C3262E;
+	font-family: 'Federo', sans-serif;
 }
 
 h2{
 	color: #573D34;
+
 }
 
 
 h3,
 p a{
-	color: #0E6190;
+	color: #C44413/*#0E6190*/;
 }
 
 a{
@@ -50,12 +57,12 @@ a{
 }
 
 p a:hover{
-	color:#4EA84B;
+	color:#469643/*#4EA84B*/;
 }
 
 a.button{
-	background: #0E6190;
-	color: #4EA84B;
+	background: #469643;
+	color: #573D34;
 	display: inline-block;
 	padding: 1%;
 	margin: 1%;
@@ -63,8 +70,8 @@ a.button{
 }
 
 a.button:hover{
-	background: #4EA84B;
-	color: #0E6190;
+	background: #573D34;
+	color: #469643;
 }
 
 .color-1,
@@ -86,7 +93,7 @@ a.button:hover{
 }
 
 .color-2{
-	background: #4EA84B;
+	background: #469643/*#4EA84B*/;
 }
 
 .color-3{
@@ -94,7 +101,7 @@ a.button:hover{
 }
 
 .color-4{
-	background: #0E6190;
+	background: #C44413/*#0E6190*/;
 }
 
 .pattern-1{
